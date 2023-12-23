@@ -1,0 +1,29 @@
+a{
+    color:black;
+    text-decoration-line: none;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    border-bottom: solid 2px gray;
+    margin:0px;
+    padding: 10px;
+    
+}
+
+ol{
+    
+    margin: 0px;
+    padding-top: 20px;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 8fr;
+}
+#item2{
+    padding-left: 30px;
+}
+#item1{
+    border-right: solid 2px gray;
+    padding-right: 30px;
+}
